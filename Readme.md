@@ -1,9 +1,10 @@
 
 # Project title-Travel Management System
 
-main/java/Nymble => Contains all the classes of (I) and methods (II) in main class.
-test/java/Nymble => Has tested all the classes using Junit5 using Maven.
-High_level_design => Has been provided in HTML file.
+- `main/java/Nymble`: Contains all the classes of (I) and methods (II) in the main class.
+- `test/java/Nymble`: Has tested all the classes using Junit5 using Maven.
+- `High_level_design`: Has been provided in an HTML file.
+
 
 Problem Statement-
 
