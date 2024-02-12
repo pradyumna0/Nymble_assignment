@@ -3,7 +3,7 @@
 
 - `main/java/Nymble`: Contains all the classes of (I) and methods (II) in the main class.
 - `test/java/Nymble`: Has tested all the classes using Junit5 using Maven.
-- `High_level_design`: Has been provided in an HTML file.
+- `High_level_design`: Has been provided in an HTML file.Kindly download it and open it in your brower.
 
 
 Problem Statement-
