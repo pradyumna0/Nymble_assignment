@@ -1,0 +1,43 @@
+class Destination {
+    - name: String
+    - activities: ArrayList<Activity>
+
+    + Destination(name: String)
+    + addActivity(activity: Activity): void
+}
+
+class Activity {
+    - name: String
+    - description: String
+    - cost: int
+    - capacity: int
+    - passengers: ArrayList<Passenger>
+
+    + Activity(name: String, description: String, cost: int, capacity: int)
+    + addPassenger(passenger: Passenger): void
+    + getCost(): int
+}
+
+class TravelPackage {
+    - name: String
+    - capacity: int
+    - passengers: ArrayList<Passenger>
+    - destinations: ArrayList<Destination>
+
+    + TravelPackage(name: String, capacity: int)
+    + addPassenger(passenger: Passenger): void
+    + addDestination(destination: Destination): void
+}
+
+class Passenger {
+    - name: String
+    - passengerNumber: int
+    - passengerType: String
+    - balance: int
+    - activities: ArrayList<Activity>
+    - destinations: ArrayList<Destination>
+    - static count: int
+
+    + Passenger(name: String, passengerNumber: int, passengerType: String, balance: int)
+    + signUpActivity(activity: Activity, destination: Destination): void
+}
