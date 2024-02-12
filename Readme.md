@@ -1,14 +1,17 @@
 
 # Project Title
 
+main/java/Nymble => Contains all the classes of (I) and methods (II) in main class
+test/java/Nymble => Has tested all the classes using Junit5 using Maven
+High_level_design => Has been provided in HTML file
+
 Problem Statement-
-# Task
 
 Design, implement and test a software system that allows travel agencies to maintain their travel packages' itinerary and passengers.
 
 ---
 
-# Specification
+# (I)Specification
 
 1. Each travel package has a name, a passenger capacity, an itinerary (list of destinations) and a list of it's passenger.
 2. Each destination has a name, and a list of the activities available at that destination.
@@ -41,7 +44,7 @@ In addition to the above specifications, the classes should provide the followin
 
 ---
 
-# Sub-Tasks
+# (II)Sub-Tasks
 
 The following are the sub-tasks that needs to be done. The code needs to be written using the Java programming language and needs to adhere to the guidelines detailed out in the next section.
 
